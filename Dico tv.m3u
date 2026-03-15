@@ -1,38 +1,99 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epg.tvnow.com.br/epg.xml"
 
-#EXTINF:-1 tvg-name="SporTV 2" group-title="Esportes",SporTV 2
+##### ESPORTES #####
+
+#EXTINF:-1 tvg-name="SporTV" group-title="Esportes",SporTV
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
+
+#EXTINF:-1 tvg-name="SporTV2" group-title="Esportes",SporTV 2
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/e8c3c96f61205e03b73246a02fc244f9/sportv2.txt
 
-#EXTINF:-1 tvg-name="SBT" group-title="Aberto",SBT
-https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/sbt.txt
+#EXTINF:-1 tvg-name="SporTV3" group-title="Esportes",SporTV 3
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/87bf2172307020b9f122b3cadc9e42c8/sportv3.txt
 
-#EXTINF:-1 tvg-name="Globo SP" group-title="Aberto",Globo SP
-https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
+#EXTINF:-1 tvg-name="ESPN" group-title="Esportes",ESPN
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/aab299ee1e52630993c342890e9d30ae/espn.txt
 
-#EXTINF:-1 tvg-name="Band" group-title="Aberto",Band
-https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/band.txt
+#EXTINF:-1 tvg-name="ESPN2" group-title="Esportes",ESPN 2
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/b9acb3c94d704da25b09ab6893ca76b0/espn2.txt
 
-#EXTINF:-1 tvg-name="Record" group-title="Aberto",Record
-https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/record.txt
+#EXTINF:-1 tvg-name="ESPN3" group-title="Esportes",ESPN 3
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/4635d7c5aa8806d5f0c192846d3df57d/espn3.txt
+
+#EXTINF:-1 tvg-name="ESPN4" group-title="Esportes",ESPN 4
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/928ffaf2914581d1e692894ad8f4d9df/espn4.txt
 
 
-#EXTINF:-1 tvg-name="Premiere 1" group-title="Premiere",Premiere 1
+##### LUTAS #####
+
+#EXTINF:-1 group-title="Lutas",Combate
+#EXTVLCOPT:network-caching=3000
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/625147d734ea53b426cae3ea528394b2/combate.txt
+
+#EXTINF:-1 group-title="Lutas",UFC Fight Pass
+#EXTVLCOPT:network-caching=3000
+https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f402c5f4ef187e0a4e43ef2d668161de/ufcfightpass.txt
+
+
+##### PREMIERE #####
+
+#EXTINF:-1 group-title="Premiere",Premiere 1
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/8f8a87f21bb66ff53f5eba205b720d4c/premiere.txt
 
-#EXTINF:-1 tvg-name="Premiere 2" group-title="Premiere",Premiere 2
+#EXTINF:-1 group-title="Premiere",Premiere 2
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/f09cb1e79230ad4f6417b87580f1c257/premiere2.txt
 
-#EXTINF:-1 tvg-name="Premiere 3" group-title="Premiere",Premiere 3
+#EXTINF:-1 group-title="Premiere",Premiere 3
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/fbe44c4d2d739f88b4af7aad2037f83e/premiere3.txt
 
-#EXTINF:-1 tvg-name="Premiere 4" group-title="Premiere",Premiere 4
+#EXTINF:-1 group-title="Premiere",Premiere 4
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/4afa24cd4e08453c8fb447e403494e13/premiere4.txt
 
-#EXTINF:-1 tvg-name="Premiere 5" group-title="Premiere",Premiere 5
+#EXTINF:-1 group-title="Premiere",Premiere 5
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/9c954f632faf7c02fdfdec5a68eaf76b/premiere5.txt
 
-#EXTINF:-1 tvg-name="Premiere 6" group-title="Premiere",Premiere 6
+#EXTINF:-1 group-title="Premiere",Premiere 6
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0e618bf0337c9573/premiere6.txt
 
-#EXTINF:-1 tvg-name="Premiere 7" group-title="Premiere",Premiere 7
+#EXTINF:-1 group-title="Premiere",Premiere 7
+#EXTVLCOPT:network-caching=3000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/premiere7.txt
+
+
+##### TV ABERTA #####
+
+#EXTINF:-1 group-title="TV Aberta",Globo SP
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
+
+#EXTINF:-1 group-title="TV Aberta",SBT
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/sbt.txt
+
+#EXTINF:-1 group-title="TV Aberta",Record
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/record.txt
+
+#EXTINF:-1 group-title="TV Aberta",Band
+#EXTVLCOPT:network-caching=2500
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/band.txt
