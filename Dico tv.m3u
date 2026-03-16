@@ -8,18 +8,14 @@
 #EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:http-user-agent=VLC/3.0.18
 #EXTVLCOPT:http-referrer=https://google.com/
-#EXTVLCOPT:http-continuous=true
 #EXTVLCOPT:clock-jitter=0
 #EXTVLCOPT:clock-synchro=0
-#EXTVLCOPT:rtsp-tcp=true
-#EXTVLCOPT:udp-caching=6000
 
 
 ######## ESPORTES ########
 
 #EXTINF:-1 group-title="Esportes",SporTV
 #EXTVLCOPT:network-caching=6000
-#EXTVLCOPT:http-reconnect=true
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
 
 #EXTINF:-1 group-title="Esportes",SporTV 2
@@ -87,3 +83,22 @@ https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0
 #EXTINF:-1 group-title="Premiere",Premiere 7
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/premiere7.txt
+
+
+######## TV ABERTA ########
+
+#EXTINF:-1 group-title="TV Aberta",Globo SP
+#EXTVLCOPT:network-caching=5000
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
+
+#EXTINF:-1 group-title="TV Aberta",SBT
+#EXTVLCOPT:network-caching=5000
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/sbt.txt
+
+#EXTINF:-1 group-title="TV Aberta",Record
+#EXTVLCOPT:network-caching=5000
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/record.txt
+
+#EXTINF:-1 group-title="TV Aberta",Band
+#EXTVLCOPT:network-caching=5000
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/band.txt
