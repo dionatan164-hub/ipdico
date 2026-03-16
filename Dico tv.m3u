@@ -2,90 +2,90 @@
 
 ######## TV ABERTA ########
 
-#EXTINF:-1 group-title="TV Aberta",Globo SP
+#EXTINF:-1 group-title="TV Aberta",DICO Globo SP
 #EXTVLCOPT:network-caching=5000
-https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/DICOglobosp.txt
+https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
 
-#EXTINF:-1 group-title="TV Aberta",SBT
+#EXTINF:-1 group-title="TV Aberta",DICO SBT
 #EXTVLCOPT:network-caching=5000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/DICOsbt.txt
 
-#EXTINF:-1 group-title="TV Aberta",Record
+#EXTINF:-1 group-title="TV Aberta",DICO Record
 #EXTVLCOPT:network-caching=5000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/DICOrecord.txt
 
-#EXTINF:-1 group-title="TV Aberta",Band
+#EXTINF:-1 group-title="TV Aberta",DICO Band
 #EXTVLCOPT:network-caching=5000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/DICOband.txt
 
 ######## ESPORTES ########
 
-#EXTINF:-1 group-title="Esportes",SporTV
+#EXTINF:-1 group-title="Esportes",DICO SporTV
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
 
-#EXTINF:-1 group-title="Esportes",SporTV 2
+#EXTINF:-1 group-title="Esportes",DICO SporTV 2
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/e8c3c96f61205e03b73246a02fc244f9/sportv2.txt
 
-#EXTINF:-1 group-title="Esportes",SporTV 3
+#EXTINF:-1 group-title="Esportes",DICO SporTV 3
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/87bf2172307020b9f122b3cadc9e42c8/sportv3.txt
 
-#EXTINF:-1 group-title="Esportes",ESPN
+#EXTINF:-1 group-title="Esportes",DICO ESPN
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/aab299ee1e52630993c342890e9d30ae/espn.txt
 
-#EXTINF:-1 group-title="Esportes",ESPN 2
+#EXTINF:-1 group-title="Esportes",DICO ESPN 2
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/b9acb3c94d704da25b09ab6893ca76b0/espn2.txt
 
-#EXTINF:-1 group-title="Esportes",ESPN 3
+#EXTINF:-1 group-title="Esportes",DICO ESPN 3
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/4635d7c5aa8806d5f0c192846d3df57d/espn3.txt
 
-#EXTINF:-1 group-title="Esportes",ESPN 4
+#EXTINF:-1 group-title="Esportes",DICO ESPN 4
 #EXTVLCOPT:network-caching=6000
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/928ffaf2914581d1e692894ad8f4d9df/espn4.txt
 
 
 ######## LUTAS ########
 
-#EXTINF:-1 group-title="Lutas",Combate
+#EXTINF:-1 group-title="Lutas",DICO Combate
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/625147d734ea53b426cae3ea528394b2/combate.txt
 
-#EXTINF:-1 group-title="Lutas",UFC Fight Pass
+#EXTINF:-1 group-title="Lutas",DICO UFC Fight Pass
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f402c5f4ef187e0a4e43ef2d668161de/ufcfightpass.txt
 
 
 ######## PREMIERE ########
 
-#EXTINF:-1 group-title="Premiere",Premiere 1
+#EXTINF:-1 group-title="Premiere",DICOPremiere 1
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/8f8a87f21bb66ff53f5eba205b720d4c/DICOpremiere.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 2
+#EXTINF:-1 group-title="Premiere",DICOPremiere 2
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/f09cb1e79230ad4f6417b87580f1c257/DICOpremiere2.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 3
+#EXTINF:-1 group-title="Premiere",DICOPremiere 3
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/fbe44c4d2d739f88b4af7aad2037f83e/DICOpremiere3.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 4
+#EXTINF:-1 group-title="Premiere",DICOPremiere 4
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/4afa24cd4e08453c8fb447e403494e13/DICOpremiere4.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 5
+#EXTINF:-1 group-title="Premiere",DICOPremiere 5
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/9c954f632faf7c02fdfdec5a68eaf76b/DICOpremiere5.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 6
+#EXTINF:-1 group-title="Premiere",DICOPremiere 6
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0e618bf0337c9573/DICOpremiere6.txt
 
-#EXTINF:-1 group-title="Premiere",Premiere 7
+#EXTINF:-1 group-title="Premiere",DICOPremiere 7
 #EXTVLCOPT:network-caching=6500
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/DICOpremiere7.txt
