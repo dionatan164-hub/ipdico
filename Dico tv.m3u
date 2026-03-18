@@ -80,3 +80,38 @@ https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0
 
 #EXTINF:-1 group-title="Premiere",DICO TV Premiere 7
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/DICOpremiere7.txt
+
+#EXTINF:-1 tvg-id="CartoonNetwork.br" tvg-name="Cartoon Network HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Cartoon%20Network%20HD.png" group-title="INFANTIS",DICO TV Cartoon Network HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2072
+
+#EXTINF:-1 tvg-id="history.br" tvg-name="History" tvg-logo="http://channelart.8b90287dn2.online/images/logos/The%20History%20Channel.png" group-title="DOCUMENTÁRIOS",DICO TV History
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2149
+
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Theater" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Theater.png" group-title="DISCOVERY",DICO TV Discovery Theater
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2090
+
+#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Investigation%20Discovery.png" group-title="DISCOVERY",DICO TV Investigation Discovery
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2151
+
+#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Turbo%20HD.png" group-title="DISCOVERY",DICO TV Discovery Turbo FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1824
+
+#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Home%20%26%20Health%20HD.png" group-title="DISCOVERY",DICO TV Discovery Home&Health FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
+
+#EXTINF:-1 tvg-id="discovery.world.br" tvg-name="Discovery World HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20World%20HD.png" group-title="DISCOVERY",DICO TV Discovery World HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1309
