@@ -1,89 +1,19 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="YOUTUBE",CHIQUI LISTA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://www.youtube.com/channel/UCEG01MXhHVh6EfWNBvtbQ0Q
+#EXTINF:-1,A&E
+http://tv.nousiptv.com:25462/live/yadira/1234/3246.ts
 
+#EXTINF:-1,AMC
+http://tv.nousiptv.com:25462/live/yadira/1234/4118.ts
 
-############ CINE ############
+#EXTINF:-1,AXN
+http://tv.nousiptv.com:25462/live/yadira/1234/3248.ts
 
-#EXTINF:-1 group-title="CINE",A&E
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3246
+#EXTINF:-1,HBO
+http://tv.nousiptv.com:25462/live/yadira/1234/3199.ts
 
-#EXTINF:-1 group-title="CINE",AMC
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4118
+#EXTINF:-1,TNT
+http://tv.nousiptv.com:25462/live/yadira/1234/4010.ts
 
-#EXTINF:-1 group-title="CINE",AXN
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3248
-
-#EXTINF:-1 group-title="CINE",CINEMAX
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3084
-
-#EXTINF:-1 group-title="CINE",HBO
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3199
-
-#EXTINF:-1 group-title="CINE",HBO 2
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3198
-
-#EXTINF:-1 group-title="CINE",HBO PLUS
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4003
-
-#EXTINF:-1 group-title="CINE",HBO FAMILY
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4017
-
-#EXTINF:-1 group-title="CINE",TNT
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4010
-
-#EXTINF:-1 group-title="CINE",WARNER
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3228
-
-
-############ INFANTIL ############
-
-#EXTINF:-1 group-title="INFANTIL",CARTOON NETWORK
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3249
-
-#EXTINF:-1 group-title="INFANTIL",DISNEY CHANNEL
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4004
-
-#EXTINF:-1 group-title="INFANTIL",DISCOVERY KIDS
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3254
-
-
-############ DOCUMENTARIOS ############
-
-#EXTINF:-1 group-title="DOC",DISCOVERY CHANNEL
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3251
-
-#EXTINF:-1 group-title="DOC",HISTORY
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3234
-
-#EXTINF:-1 group-title="DOC",NATGEO
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/4126
-
-
-############ ESPORTES ############
-
-#EXTINF:-1 group-title="ESPORTES",FOX SPORTS
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/3612
-
-#EXTINF:-1 group-title="ESPORTES",DIRECTV SPORTS
-#EXTVLCOPT:network-caching=2000
-http://tv.nousiptv.com:25462/yadira/1234/33512
+#EXTINF:-1,Cartoon Network
+http://tv.nousiptv.com:25462/live/yadira/1234/3249.ts
