@@ -113,5 +113,133 @@ http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
 
 #EXTINF:-1 tvg-id="discovery.world.br" tvg-name="Discovery World HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20World%20HD.png" group-title="DISCOVERY",DICO TV Discovery World HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
+
+#EXTM3U
+
+############ DISCOVERY ############
+
+#EXTINF:-1 group-title="DISCOVERY",DICO TV Discovery Channel FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1881
+
+
+############ DOCUMENTARIOS ############
+
+#EXTINF:-1 group-title="DOCUMENTARIOS",DICO TV Animal Planet
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2049
+
+
+############ FILMES E SERIES ############
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Warner Channel FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1874
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Series HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2244
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Novelas
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/908274
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Studio Universal FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1863
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Space
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2216
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Movies FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1280670
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Channel
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2068
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Cinemax
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2073
+
+
+############ LEGENDADOS ############
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Action LEG
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2346
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Fun LEG
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2348
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Pipoca LEG
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2350
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Premium LEG
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2352
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Touch LEG
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2354
+
+
+############ CINE SKY ############
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 1
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40623
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 2
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40624
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 3
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40625
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 4
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40626
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 5
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40627
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 6
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40628
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 7
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40629
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 8
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40630
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 9
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896436
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 10
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896437
 #EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1309
