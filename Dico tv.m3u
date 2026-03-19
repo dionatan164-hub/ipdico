@@ -1,55 +1,65 @@
 #EXTM3U x-tvg-url="https://epg.tvnow.com.br/epg.xml"
 
-######## CONFIGURAÇÕES DE ESTABILIDADE ########
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:network-caching=12000
-#EXTVLCOPT:http-reconnect=true
-#EXTVLCOPT:http-reconnect-attempts=15
+######## CONFIG GLOBAL ########
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
+#EXTVLCOPT:file-caching=15000
 #EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+#EXTVLCOPT:http-reconnect=true
+
 
 ######## TV ABERTA ########
-#EXTINF:-1 tvg-id="globo.sp" tvg-name="Globo SP" group-title="TV Aberta",DICO TV Globo SP
+
+#EXTINF:-1 group-title="TV Aberta",DICO TV Globo SP
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
 
-#EXTINF:-1 tvg-id="sbt.br" tvg-name="SBT" group-title="TV Aberta",DICO TV SBT
+#EXTINF:-1 group-title="TV Aberta",DICO TV SBT
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/DICOsbt.txt
 
-#EXTINF:-1 tvg-id="record.br" tvg-name="Record" group-title="TV Aberta",DICO TV Record
+#EXTINF:-1 group-title="TV Aberta",DICO TV Record
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/DICOrecord.txt
 
-#EXTINF:-1 tvg-id="band.br" tvg-name="Band" group-title="TV Aberta",DICO TV Band
+#EXTINF:-1 group-title="TV Aberta",DICO TV Band
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/DICOband.txt
 
+
 ######## ESPORTES ########
-#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV" group-title="Esportes",DICO TV SporTV
+
+#EXTINF:-1 group-title="Esportes",DICO TV SporTV
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
 
-#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2" group-title="Esportes",DICO TV SporTV 2
+#EXTINF:-1 group-title="Esportes",DICO TV SporTV 2
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/e8c3c96f61205e03b73246a02fc244f9/sportv2.txt
 
-#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3" group-title="Esportes",DICO TV SporTV 3
+#EXTINF:-1 group-title="Esportes",DICO TV SporTV 3
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/87bf2172307020b9f122b3cadc9e42c8/sportv3.txt
 
-#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN" group-title="Esportes",DICO TV ESPN
+#EXTINF:-1 group-title="Esportes",DICO TV ESPN
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/aab299ee1e52630993c342890e9d30ae/espn.txt
 
-#EXTINF:-1 tvg-id="espn2.br" tvg-name="ESPN 2" group-title="Esportes",DICO TV ESPN 2
+#EXTINF:-1 group-title="Esportes",DICO TV ESPN 2
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/b9acb3c94d704da25b09ab6893ca76b0/espn2.txt
 
-#EXTINF:-1 tvg-id="espn3.br" tvg-name="ESPN 3" group-title="Esportes",DICO TV ESPN 3
+#EXTINF:-1 group-title="Esportes",DICO TV ESPN 3
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/4635d7c5aa8806d5f0c192846d3df57d/espn3.txt
 
-#EXTINF:-1 tvg-id="espn4.br" tvg-name="ESPN 4" group-title="Esportes",DICO TV ESPN 4
+#EXTINF:-1 group-title="Esportes",DICO TV ESPN 4
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/928ffaf2914581d1e692894ad8f4d9df/espn4.txt
 
+
 ######## LUTAS ########
+
 #EXTINF:-1 group-title="Lutas",DICO TV Combate
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/625147d734ea53b426cae3ea528394b2/combate.txt
 
 #EXTINF:-1 group-title="Lutas",DICO TV UFC Fight Pass
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f402c5f4ef187e0a4e43ef2d668161de/ufcfightpass.txt
 
+
 ######## PREMIERE ########
+
 #EXTINF:-1 group-title="Premiere",DICO TV Premiere 1
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/8f8a87f21bb66ff53f5eba205b720d4c/DICOpremiere.txt
 
@@ -71,97 +81,165 @@ https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0
 #EXTINF:-1 group-title="Premiere",DICO TV Premiere 7
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/DICOpremiere7.txt
 
-######## INFANTIL ########
-#EXTINF:-1 tvg-id="CartoonNetwork.br" tvg-name="Cartoon Network" group-title="Infantil",DICO TV Cartoon Network
+#EXTINF:-1 tvg-id="CartoonNetwork.br" tvg-name="Cartoon Network HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Cartoon%20Network%20HD.png" group-title="INFANTIS",DICO TV Cartoon Network HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2072
 
-######## DOCUMENTARIOS ########
-#EXTINF:-1 tvg-id="history.br" tvg-name="History" group-title="Documentarios",DICO TV History
+#EXTINF:-1 tvg-id="history.br" tvg-name="History" tvg-logo="http://channelart.8b90287dn2.online/images/logos/The%20History%20Channel.png" group-title="DOCUMENTÁRIOS",DICO TV History
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2149
 
-#EXTINF:-1 group-title="Documentarios",DICO TV Discovery Theater
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Theater" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Theater.png" group-title="DISCOVERY",DICO TV Discovery Theater
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2090
 
-#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" group-title="Documentarios",DICO TV Investigation Discovery
+#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Investigation%20Discovery.png" group-title="DISCOVERY",DICO TV Investigation Discovery
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2151
 
-#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo" group-title="Documentarios",DICO TV Discovery Turbo
+#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Turbo%20HD.png" group-title="DISCOVERY",DICO TV Discovery Turbo FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1824
 
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health" group-title="Documentarios",DICO TV Discovery Home&Health
+#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Home%20%26%20Health%20HD.png" group-title="DISCOVERY",DICO TV Discovery Home&Health FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
 
-#EXTINF:-1 group-title="Documentarios",DICO TV Animal Planet
+#EXTINF:-1 tvg-id="discovery.world.br" tvg-name="Discovery World HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20World%20HD.png" group-title="DISCOVERY",DICO TV Discovery World HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+
+#EXTM3U
+
+############ DISCOVERY ############
+
+#EXTINF:-1 group-title="DISCOVERY",DICO TV Discovery Channel FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1881
+
+
+############ DOCUMENTARIOS ############
+
+#EXTINF:-1 group-title="DOCUMENTARIOS",DICO TV Animal Planet
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2049
 
-######## FILMES E SERIES ########
-#EXTINF:-1 tvg-id="warner.br" tvg-name="Warner" group-title="Filmes",DICO TV Warner Channel
+
+############ FILMES E SERIES ############
+
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Warner Channel FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1874
 
-#EXTINF:-1 tvg-id="tnt.br" tvg-name="TNT" group-title="Filmes",DICO TV TNT Series
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Series HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2244
 
-#EXTINF:-1 group-title="Filmes",DICO TV TNT Novelas
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Novelas
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/908274
 
-#EXTINF:-1 group-title="Filmes",DICO TV Studio Universal
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Studio Universal FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1863
 
-#EXTINF:-1 group-title="Filmes",DICO TV Space
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Space
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2216
 
-#EXTINF:-1 group-title="Filmes",DICO TV Sony Movies
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Movies FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1280670
 
-#EXTINF:-1 group-title="Filmes",DICO TV Sony Channel
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Channel
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2068
 
-#EXTINF:-1 tvg-id="cinemax.br" tvg-name="Cinemax" group-title="Filmes",DICO TV Cinemax
+#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Cinemax
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2073
 
-######## TELECINE LEG ########
-#EXTINF:-1 group-title="Legendados",DICO TV Telecine Action LEG
+
+############ LEGENDADOS ############
+
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Action LEG
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2346
 
-#EXTINF:-1 group-title="Legendados",DICO TV Telecine Fun LEG
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Fun LEG
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2348
 
-#EXTINF:-1 group-title="Legendados",DICO TV Telecine Pipoca LEG
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Pipoca LEG
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2350
 
-#EXTINF:-1 group-title="Legendados",DICO TV Telecine Premium LEG
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Premium LEG
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2352
 
-#EXTINF:-1 group-title="Legendados",DICO TV Telecine Touch LEG
+#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Touch LEG
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2354
 
-######## CINE SKY ########
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 1
+
+############ CINE SKY ############
+
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 1
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40623
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 2
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 2
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40624
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 3
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 3
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40625
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 4
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 4
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40626
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 5
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 5
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40627
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 6
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 6
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40628
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 7
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 7
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40629
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 8
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 8
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40630
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 9
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 9
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896436
 
-#EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 10
+#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 10
+#EXTVLCOPT:network-caching=5000
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896437
+#EXTVLCOPT:network-caching=5000
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1309
