@@ -1,245 +1,480 @@
-#EXTM3U x-tvg-url="https://epg.tvnow.com.br/epg.xml"
+EXTM3U x-tvg-url="https://epg.tvnow.com.br/epg.xml"
 
 ######## CONFIG GLOBAL ########
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=15000
-#EXTVLCOPT:live-caching=15000
-#EXTVLCOPT:file-caching=15000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:file-caching=8000
 #EXTVLCOPT:clock-jitter=0
 #EXTVLCOPT:clock-synchro=0
 #EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:drop-late-frames=true
+#EXTVLCOPT:skip-frames=false
 
-
-######## TV ABERTA ########
-
-#EXTINF:-1 group-title="TV Aberta",DICO TV Globo SP
+#EXTINF:-1 tvg-id="globo.sp" tvg-name="Globo SP" tvg-logo="https://epg.tvnow.com.br/logos/globo.png" group-title="TV Aberta",DICO TV Globo SP
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
 
-#EXTINF:-1 group-title="TV Aberta",DICO TV SBT
+#EXTINF:-1 tvg-id="sbt.br" tvg-name="SBT" tvg-logo="https://epg.tvnow.com.br/logos/sbt.png" group-title="TV Aberta",DICO TV SBT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/80257eac8d0dac24f3c4fcb148017356/DICOsbt.txt
 
-#EXTINF:-1 group-title="TV Aberta",DICO TV Record
+#EXTINF:-1 tvg-id="record.br" tvg-name="Record" tvg-logo="https://epg.tvnow.com.br/logos/record.png" group-title="TV Aberta",DICO TV Record
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65bd40826612b634d/DICOrecord.txt
 
-#EXTINF:-1 group-title="TV Aberta",DICO TV Band
+#EXTINF:-1 tvg-id="band.br" tvg-name="Band" tvg-logo="https://epg.tvnow.com.br/logos/band.png" group-title="TV Aberta",DICO TV Band
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/DICOband.txt
 
-
-######## ESPORTES ########
-
-#EXTINF:-1 group-title="Esportes",DICO TV SporTV
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV" tvg-logo="https://epg.tvnow.com.br/logos/sportv.png" group-title="Esportes",DICO TV SporTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV SporTV 2
+#EXTINF:-1 tvg-id="sportv2.br" tvg-name="SporTV 2" tvg-logo="https://epg.tvnow.com.br/logos/sportv2.png" group-title="Esportes",DICO TV SporTV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/e8c3c96f61205e03b73246a02fc244f9/sportv2.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV SporTV 3
+#EXTINF:-1 tvg-id="sportv3.br" tvg-name="SporTV 3" tvg-logo="https://epg.tvnow.com.br/logos/sportv3.png" group-title="Esportes",DICO TV SporTV 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/87bf2172307020b9f122b3cadc9e42c8/sportv3.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV ESPN
+#EXTINF:-1 tvg-id="espn.br" tvg-name="ESPN" tvg-logo="https://epg.tvnow.com.br/logos/espn.png" group-title="Esportes",DICO TV ESPN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/aab299ee1e52630993c342890e9d30ae/espn.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV ESPN 2
+#EXTINF:-1 tvg-id="espn2.br" tvg-name="ESPN 2" tvg-logo="https://epg.tvnow.com.br/logos/espn2.png" group-title="Esportes",DICO TV ESPN 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/b9acb3c94d704da25b09ab6893ca76b0/espn2.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV ESPN 3
+#EXTINF:-1 tvg-id="espn3.br" tvg-name="ESPN 3" tvg-logo="https://epg.tvnow.com.br/logos/espn3.png" group-title="Esportes",DICO TV ESPN 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/4635d7c5aa8806d5f0c192846d3df57d/espn3.txt
 
-#EXTINF:-1 group-title="Esportes",DICO TV ESPN 4
+#EXTINF:-1 tvg-id="espn4.br" tvg-name="ESPN 4" tvg-logo="https://epg.tvnow.com.br/logos/espn4.png" group-title="Esportes",DICO TV ESPN 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/928ffaf2914581d1e692894ad8f4d9df/espn4.txt
 
-
-######## LUTAS ########
-
-#EXTINF:-1 group-title="Lutas",DICO TV Combate
+#EXTINF:-1 tvg-id="combate.br" tvg-name="Combate" tvg-logo="https://epg.tvnow.com.br/logos/combate.png" group-title="Lutas",DICO TV Combate
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/625147d734ea53b426cae3ea528394b2/combate.txt
 
-#EXTINF:-1 group-title="Lutas",DICO TV UFC Fight Pass
+#EXTINF:-1 tvg-id="ufcfightpass.br" tvg-name="UFC Fight Pass" tvg-logo="https://epg.tvnow.com.br/logos/ufcfightpass.png" group-title="Lutas",DICO TV UFC Fight Pass
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f402c5f4ef187e0a4e43ef2d668161de/ufcfightpass.txt
 
-
-######## PREMIERE ########
-
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 1
+#EXTINF:-1 tvg-id="premiere1.br" tvg-name="Premiere 1" tvg-logo="https://epg.tvnow.com.br/logos/premiere1.png" group-title="Premiere",DICO TV Premiere 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/8f8a87f21bb66ff53f5eba205b720d4c/DICOpremiere.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 2
+#EXTINF:-1 tvg-id="premiere2.br" tvg-name="Premiere 2" tvg-logo="https://epg.tvnow.com.br/logos/premiere2.png" group-title="Premiere",DICO TV Premiere 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/f09cb1e79230ad4f6417b87580f1c257/DICOpremiere2.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 3
+#EXTINF:-1 tvg-id="premiere3.br" tvg-name="Premiere 3" tvg-logo="https://epg.tvnow.com.br/logos/premiere3.png" group-title="Premiere",DICO TV Premiere 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/fbe44c4d2d739f88b4af7aad2037f83e/DICOpremiere3.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 4
+#EXTINF:-1 tvg-id="premiere4.br" tvg-name="Premiere 4" tvg-logo="https://epg.tvnow.com.br/logos/premiere4.png" group-title="Premiere",DICO TV Premiere 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/c19cc2190e2cab6c934e4bd30b106723/DICOpremiere4.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 5
+#EXTINF:-1 tvg-id="premiere5.br" tvg-name="Premiere 5" tvg-logo="https://epg.tvnow.com.br/logos/premiere5.png" group-title="Premiere",DICO TV Premiere 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/9c954f632faf7c02fdfdec5a68eaf76b/DICOpremiere5.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 6
+#EXTINF:-1 tvg-id="premiere6.br" tvg-name="Premiere 6" tvg-logo="https://epg.tvnow.com.br/logos/premiere6.png" group-title="Premiere",DICO TV Premiere 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0e618bf0337c9573/DICOpremiere6.txt
 
-#EXTINF:-1 group-title="Premiere",DICO TV Premiere 7
+#EXTINF:-1 tvg-id="premiere7.br" tvg-name="Premiere 7" tvg-logo="https://epg.tvnow.com.br/logos/premiere7.png" group-title="Premiere",DICO TV Premiere 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/DICOpremiere7.txt
 
 #EXTINF:-1 tvg-id="CartoonNetwork.br" tvg-name="Cartoon Network HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Cartoon%20Network%20HD.png" group-title="INFANTIS",DICO TV Cartoon Network HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2072
 
-#EXTINF:-1 tvg-id="history.br" tvg-name="History" tvg-logo="http://channelart.8b90287dn2.online/images/logos/The%20History%20Channel.png" group-title="DOCUMENTÁRIOS",DICO TV History
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="history.br" tvg-name="History" tvg-logo="http://channelart.8b90287dn2.online/images/logos/The%20History%20Channel.png" group-title="DOCUMENTARIOS",DICO TV History
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2149
 
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Theater" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Theater.png" group-title="DISCOVERY",DICO TV Discovery Theater
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2090
+#EXTINF:-1 tvg-id="AnimalPlanet.br" tvg-name="Animal Planet" tvg-logo="https://epg.tvnow.com.br/logos/animalplanet.png" group-title="DOCUMENTARIOS",DICO TV Animal Planet
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2049
 
-#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Investigation%20Discovery.png" group-title="DISCOVERY",DICO TV Investigation Discovery
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2151
-
-#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Turbo%20HD.png" group-title="DISCOVERY",DICO TV Discovery Turbo FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1824
-
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Home%20%26%20Health%20HD.png" group-title="DISCOVERY",DICO TV Discovery Home&Health FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
-
-#EXTINF:-1 tvg-id="discovery.world.br" tvg-name="Discovery World HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20World%20HD.png" group-title="DISCOVERY",DICO TV Discovery World HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-
-#EXTM3U
-
-############ DISCOVERY ############
-
-#EXTINF:-1 group-title="DISCOVERY",DICO TV Discovery Channel FHD
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="discovery.br" tvg-name="Discovery Channel FHD" tvg-logo="https://epg.tvnow.com.br/logos/discovery.png" group-title="DISCOVERY",DICO TV Discovery Channel FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
 #EXTVLCOPT:clock-jitter=0
 #EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1881
 
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Theater" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Theater.png" group-title="DISCOVERY",DICO TV Discovery Theater
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2090
 
-############ DOCUMENTARIOS ############
+#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Investigation%20Discovery.png" group-title="DISCOVERY",DICO TV Investigation Discovery
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2151
 
-#EXTINF:-1 group-title="DOCUMENTARIOS",DICO TV Animal Planet
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2049
+#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Turbo%20HD.png" group-title="DISCOVERY",DICO TV Discovery Turbo FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1824
 
+#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20Home%20%26%20Health%20HD.png" group-title="DISCOVERY",DICO TV Discovery Home&Health FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
 
-############ FILMES E SERIES ############
+#EXTINF:-1 tvg-id="discovery.world.br" tvg-name="Discovery World HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Discovery%20World%20HD.png" group-title="DISCOVERY",DICO TV Discovery World HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1309
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Warner Channel FHD
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="WarnerChannel.br" tvg-name="Warner Channel FHD" tvg-logo="https://epg.tvnow.com.br/logos/warner.png" group-title="FILMES E SERIES",DICO TV Warner Channel FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1874
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Series HD
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TNTSeries.br" tvg-name="TNT Series HD" tvg-logo="https://epg.tvnow.com.br/logos/tntseries.png" group-title="FILMES E SERIES",DICO TV TNT Series HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2244
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV TNT Novelas
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TNTNovelas.br" tvg-name="TNT Novelas" tvg-logo="https://epg.tvnow.com.br/logos/tntnovelas.png" group-title="FILMES E SERIES",DICO TV TNT Novelas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/908274
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Studio Universal FHD
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="StudioUniversal.br" tvg-name="Studio Universal FHD" tvg-logo="https://epg.tvnow.com.br/logos/studiouniversal.png" group-title="FILMES E SERIES",DICO TV Studio Universal FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1863
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Space
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="Space.br" tvg-name="Space" tvg-logo="https://epg.tvnow.com.br/logos/space.png" group-title="FILMES E SERIES",DICO TV Space
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2216
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Movies FHD
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="SonyMovies.br" tvg-name="Sony Movies FHD" tvg-logo="https://epg.tvnow.com.br/logos/sonymovies.png" group-title="FILMES E SERIES",DICO TV Sony Movies FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1280670
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Sony Channel
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="SonyChannel.br" tvg-name="Sony Channel" tvg-logo="https://epg.tvnow.com.br/logos/sonychannel.png" group-title="FILMES E SERIES",DICO TV Sony Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2068
 
-#EXTINF:-1 group-title="FILMES E SERIES",DICO TV Cinemax
-#EXTVLCOPT:http-user-agent=VLC/3.0.18
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="Cinemax.br" tvg-name="Cinemax" tvg-logo="https://epg.tvnow.com.br/logos/cinemax.png" group-title="FILMES E SERIES",DICO TV Cinemax
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2073
 
-
-############ LEGENDADOS ############
-
-#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Action LEG
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TelecineAction.br" tvg-name="Telecine Action LEG" tvg-logo="https://epg.tvnow.com.br/logos/telecineaction.png" group-title="LEGENDADOS",DICO TV Telecine Action LEG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2346
 
-#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Fun LEG
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TelecineFun.br" tvg-name="Telecine Fun LEG" tvg-logo="https://epg.tvnow.com.br/logos/telecinefun.png" group-title="LEGENDADOS",DICO TV Telecine Fun LEG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2348
 
-#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Pipoca LEG
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TelecinePipoca.br" tvg-name="Telecine Pipoca LEG" tvg-logo="https://epg.tvnow.com.br/logos/telecinepipoca.png" group-title="LEGENDADOS",DICO TV Telecine Pipoca LEG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2350
 
-#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Premium LEG
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TelecinePremium.br" tvg-name="Telecine Premium LEG" tvg-logo="https://epg.tvnow.com.br/logos/telecinepremium.png" group-title="LEGENDADOS",DICO TV Telecine Premium LEG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2352
 
-#EXTINF:-1 group-title="LEGENDADOS",DICO TV Telecine Touch LEG
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="TelecineTouch.br" tvg-name="Telecine Touch LEG" tvg-logo="https://epg.tvnow.com.br/logos/telecinetouch.png" group-title="LEGENDADOS",DICO TV Telecine Touch LEG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2354
 
-
-############ CINE SKY ############
-
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 1
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky1.br" tvg-name="Cine Sky 1" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40623
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 2
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky2.br" tvg-name="Cine Sky 2" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40624
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 3
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky3.br" tvg-name="Cine Sky 3" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40625
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 4
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky4.br" tvg-name="Cine Sky 4" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40626
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 5
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky5.br" tvg-name="Cine Sky 5" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40627
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 6
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky6.br" tvg-name="Cine Sky 6" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40628
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 7
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky7.br" tvg-name="Cine Sky 7" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40629
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 8
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky8.br" tvg-name="Cine Sky 8" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40630
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 9
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky9.br" tvg-name="Cine Sky 9" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896436
 
-#EXTINF:-1 group-title="CINE SKY",DICO TV Cine Sky 10
-#EXTVLCOPT:network-caching=5000
+#EXTINF:-1 tvg-id="CineSky10.br" tvg-name="Cine Sky 10" tvg-logo="https://epg.tvnow.com.br/logos/cinesky.png" group-title="CINE SKY",DICO TV Cine Sky 10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:network-caching=8000
+#EXTVLCOPT:live-caching=8000
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:clock-jitter=0
+#EXTVLCOPT:clock-synchro=0
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/896437
-#EXTVLCOPT:network-caching=5000
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1309
