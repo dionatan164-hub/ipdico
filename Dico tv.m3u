@@ -1,17 +1,13 @@
 #EXTM3U x-tvg-url="https://epg.tvnow.com.br/epg.xml"
 
-######## CONFIG ########
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+######## CONFIGURAÇÕES DE ESTABILIDADE ########
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:network-caching=12000
-#EXTVLCOPT:live-caching=12000
-#EXTVLCOPT:file-caching=12000
 #EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-reconnect-attempts=15
 #EXTVLCOPT:clock-jitter=0
-#EXTVLCOPT:clock-synchro=0
-
 
 ######## TV ABERTA ########
-
 #EXTINF:-1 tvg-id="globo.sp" tvg-name="Globo SP" group-title="TV Aberta",DICO TV Globo SP
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/ad1508ec7327e62562db714f87250b17/globosp.txt
 
@@ -24,9 +20,7 @@ https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/59c658dbde9525c65
 #EXTINF:-1 tvg-id="band.br" tvg-name="Band" group-title="TV Aberta",DICO TV Band
 https://d1muf25xa03so8hp13.s27-usa-cloudfront-net.online/token/1153af8319855dd410d68f3b865aeb5e/DICOband.txt
 
-
 ######## ESPORTES ########
-
 #EXTINF:-1 tvg-id="sportv.br" tvg-name="SporTV" group-title="Esportes",DICO TV SporTV
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/63ec8852478b4078011e422166051d08/sportv.txt
 
@@ -48,18 +42,14 @@ https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/4635d7c5aa8806d5f
 #EXTINF:-1 tvg-id="espn4.br" tvg-name="ESPN 4" group-title="Esportes",DICO TV ESPN 4
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/928ffaf2914581d1e692894ad8f4d9df/espn4.txt
 
-
 ######## LUTAS ########
-
 #EXTINF:-1 group-title="Lutas",DICO TV Combate
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/625147d734ea53b426cae3ea528394b2/combate.txt
 
 #EXTINF:-1 group-title="Lutas",DICO TV UFC Fight Pass
 https://d1muf25xa03so8hp15.s27-usa-cloudfront-net.online/token/f402c5f4ef187e0a4e43ef2d668161de/ufcfightpass.txt
 
-
 ######## PREMIERE ########
-
 #EXTINF:-1 group-title="Premiere",DICO TV Premiere 1
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/8f8a87f21bb66ff53f5eba205b720d4c/DICOpremiere.txt
 
@@ -82,34 +72,29 @@ https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/5fb4085967c8f7ad0
 https://d1muf25xa03so8hp16.s27-usa-cloudfront-net.online/token/f156406b18190cc50d27b700e1844a56/DICOpremiere7.txt
 
 ######## INFANTIL ########
-
 #EXTINF:-1 tvg-id="CartoonNetwork.br" tvg-name="Cartoon Network" group-title="Infantil",DICO TV Cartoon Network
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2072
 
-
 ######## DOCUMENTARIOS ########
-
 #EXTINF:-1 tvg-id="history.br" tvg-name="History" group-title="Documentarios",DICO TV History
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2149
 
-#EXTINF:-1 group-title="Discovery",DICO TV Discovery Theater
+#EXTINF:-1 group-title="Documentarios",DICO TV Discovery Theater
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2090
 
-#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" group-title="Discovery",DICO TV Investigation Discovery
+#EXTINF:-1 tvg-id="investigacao.discovery.br" tvg-name="Investigation Discovery" group-title="Documentarios",DICO TV Investigation Discovery
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2151
 
-#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo" group-title="Discovery",DICO TV Discovery Turbo
+#EXTINF:-1 tvg-id="DiscoveryTurbo.br" tvg-name="Discovery Turbo" group-title="Documentarios",DICO TV Discovery Turbo
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1824
 
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health" group-title="Discovery",DICO TV Discovery Home&Health
+#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery Home&Health" group-title="Documentarios",DICO TV Discovery Home&Health
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1820
 
 #EXTINF:-1 group-title="Documentarios",DICO TV Animal Planet
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2049
 
-
 ######## FILMES E SERIES ########
-
 #EXTINF:-1 tvg-id="warner.br" tvg-name="Warner" group-title="Filmes",DICO TV Warner Channel
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1874
 
@@ -134,9 +119,7 @@ http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2068
 #EXTINF:-1 tvg-id="cinemax.br" tvg-name="Cinemax" group-title="Filmes",DICO TV Cinemax
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2073
 
-
 ######## TELECINE LEG ########
-
 #EXTINF:-1 group-title="Legendados",DICO TV Telecine Action LEG
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2346
 
@@ -152,9 +135,7 @@ http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2352
 #EXTINF:-1 group-title="Legendados",DICO TV Telecine Touch LEG
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2354
 
-
 ######## CINE SKY ########
-
 #EXTINF:-1 group-title="Cine Sky",DICO TV Cine Sky 1
 http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/40623
 
